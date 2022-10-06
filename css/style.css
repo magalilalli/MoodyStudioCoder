@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto-Thin.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 200;
+}
+
+.header--logo {
+  margin: 3%;
+}
+.header {
+  background-color: #ffff;
+}
+.main__Banner {
+  position: static;
+  background-color: #dbd0cc;
+  width: 1440;
+  height: 430;
+}
+.main__Banner-img {
+  position: relative;
+  left: 10px;
+  bottom: 70px;
+}
+.main__Banner-Button {
+  position: absolute;
+  right: 90px;
+  bottom: 70px;
+}
+.main__Banner-title {
+  position: relative;
+  padding: 80px;
+}
+h1 {
+  text-align: end;
+  color: #a86a3d;
+  font-family: "Roboto-Bold";
+}
+#news {
+  margin-top: 30px;
+  position: relative;
+}
+#news h5 {
+  position: relative;
+  text-align: end;
+  text-align: right;
+}
+
+.cards {
+  display: flex;
+  flex-flow: nowrap;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+.cards__08{
+  background-image:url ("./proyecto coder/objeto5_canasto mimbre.jpg");
+  background-size:contain;
+
+}
+h3 {
+  display: block;
+  color: black;
+  font-family: "Roboto-Medium";
+  font-size: 16px;
+}
+h4 {
+  font-family: "Roboto-Medium";
+  font-size: 14px;
+  color: aliceblue;
+}
+.footer--all {
+  background-color: #323334;
+  font-family: "Roboto-Thin";
+  font-size: 10px;
+  color: #ffffff;
+}
+footer p {
+  font-family: "Roboto-Medium";
+  font-size: 12px;
+  color: #ffffff;
+}
